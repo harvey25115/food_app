@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Link } from "react-router-dom";
+import AppContext, { Data } from "./store/app-context";
+
+const initialState: Data = {
+  category: "",
+  seatCount: 1,
+  restaurant: "",
+  menuList: [],
+  cart: undefined,
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <AppContext.Provider value={initialState}>
+      <div className="w-[450px] sm:w-[90%] bg-gray-100 p-10 rounded-xl flex flex-col">
+        <div className="text-5xl font-bold mb-3">Welcome!</div>
+        <div className="text-2xl font-bold">Please start your order.</div>
+        <Link
+          to="/category"
+          className="rounded-xl bg-orange-600 w-full p-1 mt-20 text-white text-center font-bold"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          Order
+        </Link>
+      </div>
+    </AppContext.Provider>
   );
 }
 

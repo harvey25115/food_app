@@ -1,3 +1,26 @@
+# Food App Exercise
+
+## Tech Stack:
+
+- React (bootstrap with create-react-app)
+- Typescript
+- React Router
+- Tailwind CSS
+- Cypress (E2E Testing)
+  Others:
+- Google Fonts
+- Icons8
+
+## Overview
+
+This is my entry for the react assignment.
+I have used the tech stacks I have mentioned above.
+I also did a responsive design for this and alter the UI to improve the UX as much as I can. All must requirements were followed. As for the test, I completed the E2E testing of this app including error, normal flow and back event.
+
+Note: the image in Dish/Confirmation page are static. Added image only for design purposes.
+
+# MISC
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,10 +37,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm run cypress:run`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run run all E2E tests headlessly.
+Make sure the server is running using `npm start`.
 
 ### `npm run build`
 
