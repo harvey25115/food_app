@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 /**
- * custom hookd: use to check data on mount
+ * custom hook: use to check data on mount
  */
 export default function useCheckData(dataContext) {
   const nav = useNavigate();
