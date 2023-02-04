@@ -2,7 +2,7 @@
 
 ## Tech Stack:
 
-- React (bootstrap with create-react-app)
+- React (using create-react-app)
 - Typescript
 - React Router
 - Tailwind CSS
