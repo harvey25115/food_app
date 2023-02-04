@@ -14,8 +14,8 @@
 ## Overview
 
 This is my entry for the react assignment.
-I have used the tech stacks I have mentioned above.
-I also did a responsive design for this and alter the UI to improve the UX as much as I can. All must requirements were followed. As for the test, I completed the E2E testing of this app including error, normal flow and back event.
+I have used the tech stacks that I have mentioned above.
+I also made a responsive design for this and altered the UI to improve the UX as much as I can. All must requirements were followed. As for the test, I completed the E2E testing of this app including error, normal flow and back event.
 
 Note: the image in Dish/Confirmation page are static. Added image only for design purposes.
 
