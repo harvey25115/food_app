@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import AppContext, { Menu } from "../store/app-context";
-import useCheckData from "../utils/dataCheck";
+import useCheckData from "../utils/data-check";
 import DishCard from "../components/Dishcard";
 
 /**

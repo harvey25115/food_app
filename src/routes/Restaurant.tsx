@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import data from "../data/dishes.json";
 import AppContext from "../store/app-context";
-import useCheckData from "../utils/dataCheck";
+import useCheckData from "../utils/data-check";
 
 /**
  * displays and select restaurant
